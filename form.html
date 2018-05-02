@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+  <title>Pre-Exercise</title>
+  <style>
+    body{
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .container{
+      display: inline-block;
+      border: 1px solid black;
+      min-width: 30vw;
+      min-height: auto;
+      padding: 3vh 4vw 3vh 4vw;
+      margin-top: 4vh;
+      margin-bottom: 4vh;
+    }
+    input{
+      display: block;
+      min-width:99%;
+      margin-bottom: 1vh;
+    }
+    textarea{
+      display: block;
+      min-width:99%;
+      margin-bottom: 1vh;
+      resize: none;
+    }
+    label{
+      float: left;
+      margin-left: 30px;
+      margin-bottom: 1vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form action="#">
+      <label for="name">Name</label>
+      <input type="text" name="name">
+      <label for="email">E-Mail</label>
+      <input type="email" name="email">
+      <label for="age">Age</label>
+      <input type="number" name="age">
+      <label for="tel">Phone Number</label>
+      <input type="tel" name="phone">
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob">
+      <label for="q1">Question 1</label>
+      <textarea name="q1" cols="30" rows="10"></textarea>
+      <label for="q2">Question 2</label>
+      <textarea name="q2" cols="30" rows="10"></textarea>
+      <label for="q3">Question 3</label>
+      <textarea name="q3" cols="30" rows="10"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
